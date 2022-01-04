@@ -1,14 +1,16 @@
 // 4. 다른 문자열 찾기
 // ex) abc는 ABC와 다릅니다.
 
-const str = "ABC ";
+const str = "ABC";
 
-const difficult = (str) => {
-  let str2 = "ABC";
-  return str === str2;
+const different = (str) => {
+  let str2 = "abc";
+  if (str !== str2) {
+    console.log(`${str}와 ${str2}는 다릅니다.`);
+  }
+  return;
 };
-
-console.log(difficult(str));
+different(str);
 
 // const arr = ["a", "b", "c"];
 // const arr2 = ["A", "B", "C"];
