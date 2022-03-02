@@ -30,3 +30,17 @@ const solution = (str) => { // 방법 3 match 함수 사용
 }
 
 console.log(solution(str));
+
+const findChar = (str) => { // 방법 4 indexOf 함수 사용
+  let count = 0;
+  let searchChar = "!";
+  let pos = str.indexOf(searchChar);
+
+  while(pos !== -1) {
+    count++;
+    pos = str.indexOf(searchChar, pos + 1);
+  }
+  return count;
+}
+
+console.log(findChar(str));
