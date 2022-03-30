@@ -1,3 +1,4 @@
+// 나머지
 let input = require('fs').readFileSync('example.txt').toString().split('\n').map(Number);
 
 let remain = [];

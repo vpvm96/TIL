@@ -1,3 +1,4 @@
+// OX 퀴즈
 let index = require('fs').readFileSync('example.txt').toString().split('\n');
 
 let n = Number(index[0]);

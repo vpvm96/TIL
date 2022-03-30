@@ -1,3 +1,4 @@
+// 최소, 최대
 let input = require('fs').readFileSync('example.txt').toString().split('\n');
 
 let count = Number(input[0]);

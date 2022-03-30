@@ -1,3 +1,4 @@
+// 평균
 let input = require('fs').readFileSync('example.txt').toString().trim().split('\n');
 
 let count = Math.floor(input[0]);

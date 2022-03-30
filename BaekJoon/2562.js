@@ -1,3 +1,4 @@
+// 최댓값
 let input = require('fs').readFileSync('example.txt').toString().split('\n');
 
 let num = input.map(Number);

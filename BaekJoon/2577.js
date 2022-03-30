@@ -1,3 +1,4 @@
+// 숫자의 개수
 let input = require('fs').readFileSync('example.txt').toString().split('\n');
 
 let num = String(input[0] * input[1] * input[2]);
