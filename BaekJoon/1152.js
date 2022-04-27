@@ -21,9 +21,6 @@ The last character is a blank
 6
  */
 
-let input = require('fs').readFileSync('example.txt').toString();
-let answer = 0;
+let input = require('fs').readFileSync('example.txt').toString().trim().split(' ');
 
-answer = input.trim().split(' ').length;
-
-console.log(answer);
+console.log(input[0] === '' ? 0 : input.length);
